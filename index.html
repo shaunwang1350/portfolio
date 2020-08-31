@@ -1,139 +1,388 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./resources/css/index.css" rel="stylesheet">
-    <title>Shaun Wang</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata:300,400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300, 400, 700" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/app.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Shaun Wang | Portfolio</title>
 </head>
+
 <body>
 
+    <div class="topnav" id="myTopnav">
+    <a href="contact.html">Contact</a>
+    <a href="projects.html">Projects / Publications</a>
+    <a href="index.html" class="active">Home</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+    </a>
+    </div>      
+
     <header>
-
-        <nav>
-            <ul class="navbar">
-                <li class="navbar"><a href="index.html">Home</a></li>
-                <li class="navbar"><a href="index.html">About me</a></li>
-                <li class="navbar"><a href="index.html">Projects</a></li>
-                <li class="navbar"><a href="index.html">Contact</a></li>
-            </ul>
-        </nav>
-
+        <div class="wave">
+            <div class="container header-container">
+                <h1 class="name">Shaun Wang<text class="blink">|</text></h1>
+                <h3 class="subtitle text-center">Building Chaotic Ideas, and Hoping One Might Be a Unicorn;</h3>
+                <!-- <img src="assets/images/student.png" class="boy" alt="boy image" /> -->
+            </div>
+        </div>
+        <div class="wave-svg">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" opacity="1" width="100%" height="80"
+                preserveAspectRatio="none" viewBox="0 0 1600 200">
+                <path d="M-8,95.3C-8,95.3,189,2,398,2s604,184.7,800,184.7s412-91.4,412-91.4V271H-8V95.3z" />
+                <path
+                    d="M1610,95.3c0,0-216,80-412,80c-98,0-245.8-40.5-395.1-80.9c149.4,46.2,297.1,92.3,395.1,92.3C1394,186.7,1610,95.3,1610,95.3z" />
+            </svg>
+        </div>
     </header>
 
-    <body>
-        <div class="intro">
-            <h1 class="introDesc">Shaun Wang</h1>
-            <h4 class="introDesc">Building Chaotic Ideas, and Hoping One Might Be a Unicorn.</h4>
-        </div>
+    <section class="container">
+        <h1 class="title">Thanks for stopping by;
+        </h1>
+        <h3 class="subtitle">I am an graduate student with a passion for data science's intersection with the social sciences; </h3>
+    </section>
 
-        <div class="selfDesc">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam corporis eius eaque quas provident accusamus nisi facilis nam maiores laudantium earum quasi placeat ducimus veritatis, doloribus praesentium, cupiditate hic quam.</p>
-        </div>
 
-        <div class="projects">
-            <h2>Projects</h2>
-            <ul>
-                <li>
-                    <h3>To Mars</h3>
-                    <p>Created a homepage that displays data related to UFO occurances through United States. Functionality includes: Data Table Filters, Reset Button, ... etc</p>
-                    <p>Skills Used: HTML, CSS, JavaScript</p>
-                </li>
-            </ul>
+    <section class="container skill-container">
+        <div class="row">
+            <div class="col-md-10 offset-md-1">
 
-        </div>
-        <div class="publications">
-            <h2>Publications</h2>
-            <ul>
-                <li class="pubSnapshot">
-                    <h3>"Snapshot: Investigative Interviews on Chinese Contemporary Private Museums"</h3>
-                    <p class=pubDesc>05.2015 - 08.2017</p>
-                    <p> Spent 2.5 years investigating 40 contemporary private museums, art foundations, and art centers in China; 54 museum directors, founders, and CEOs, complied into a book over 450 pages in length. Compiled and recorded data/primary sources on private contemporary museums in sectors of museum operations, collection legality issues, corporate structure, export/import artwork taxes, future developments, etc. First to collect quantitative data on private contemporary art organizations in China. Project received ¥190,000 in sponsorship from Asia Art Archive, New Century Art Foundation, SAIC, Chao Art Center, and Shanghai Glass Museum. Conducted a ‘TED talk’ on the project at Columbia Global Center. Book is featured and reviewed by various major news publications. (Artnet, Leap Magazine, Artron, Ifeng, Artyoo,) Book sold over 300 copies in the first week.</p>
-                    <ul class="reviews">
-                        <li>
-                            Art-ba-ba: http://www.art-ba-ba.com/main/main.art?threadId=185602&forumId=8
-                        </li>
-                        <li>
-                            Columbia Global Center https://globalcenters.columbia.edu/news/snapshot-behind-flourishing-chinese-private-museums
-                        </li>
-                        <li>
-                            Artron: https://news.artron.net/20170827/n952965.html 
-                        </li>
-                        <li>
-                            LEAP: http://www.sohu.com/a/199748333_181497
-                        </li>
-                        <li>
-                            Phoenix news: https://hk.saowen.com/a/eaf9a0269d76d7de37418627abf56b31b1aad2611af3b04521681a47aca69564
-                        </li>
-                        <li>
-                            Artnet China: http://info.trueart.com/info_42889.html
-                        </li>
-                    </ul>
-                </li>
-                <li class="pubMotive">
-                    <h3>"Motive: 23 Art Individual"</h3>
-                    <p class=pubCap>05.2015 - 08.2017</p>
-                    <p class=pubDesc> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex eius assumenda vero enim! Commodi nisi similique hic voluptas ea rem ratione, repellendus dolores temporibus dolore, voluptatibus at blanditiis, est eum.</p>
-                </li>
-            </ul>
-            <div >
+                <div class="row text-center">
+                    <div class="col">
+                        <div class="skill-bar-title">
+                            <i class="fab fa-html5 fa-3x"></i>
+                            <p>HTML5</p>
+                        </div>
+                    </div>
 
-            </div>
-            <div class="pub">
-
+                    <div class="col">
+                        <div class="skill-bar-title">
+                            <i class="fab fa-css3-alt fa-3x"></i>
+                            <p>CSS3</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="skill-bar-title">
+                            <i class="fab fa-js-square fa-3x"></i>
+                            <p>JavaScript</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="skill-bar-title">
+                            <i class="fab fa-python fa-3x"></i>
+                            <p>Python</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="skill-bar-title">
+                            <i class="fas fa-database fa-3x"></i>
+                            <p>SQL</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="skill-bar-title">
+                            <i class="fab fa-java fa-3x"></i>
+                            <p>Java</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="skill-bar-title">
+                            <i class="fab fa-git fa-3x"></i>
+                            <p>Git</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="experiences">
-            <h2>Experiences</h2>
+
+    </section>
+
+    <div class="wave-svg-color">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="blue" opacity="1" width="100%" height="80"
+            preserveAspectRatio="none" viewBox="0 0 1600 200">
+            <path d="M-8,95.3C-8,95.3,189,2,398,2s604,184.7,800,184.7s412-91.4,412-91.4V271H-8V95.3z" />
+            <path
+                d="M1610,95.3c0,0-216,80-412,80c-98,0-245.8-40.5-395.1-80.9c149.4,46.2,297.1,92.3,395.1,92.3C1394,186.7,1610,95.3,1610,95.3z" />
+        </svg>
+    </div>
+
+    <section class="container-color">
+    </section>
+    <section class="container">
+        <div class="card custom-card">
+            <div class="card-body">
+                <span class="card-icon">
+                    <i class="fas fa-code"></i>
+                </span>
+
+                <h3 class="card-title">More about Me</h3>
+                <p class="card-text">
+                    Fond interest in art / art history, with a recent burning passion in data science and its utility in the humanities.</p>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- TIMELINE -->
+    <section class="container">
+        <h1 class="title"> Featured Projects / Publications</h1>
+        <h3 class="subtitle">These are just a few of the projects / publications I have created:</h3>
+    </section>
+
+
+    <div class="container">
+        <div id="timeline">
+            <div class="timeline-item">
+                <div class="timeline-icon">
+                    <i class="fas fa-star fa-align"></i>
+
+                </div>
+                <div class="timeline-content">
+                    <h2>Earthquakes (Live)</h2>
+                    <p>
+                        Javascript, CSS, HTML, GeoJSON, Mapbox API, Leaflet | August 2020
+                    </p>
+                    <button type="button" class="collapsible">details</button>
+                    <div class="content">
+                        <p>The project visually presents the differences between the magnitudes of earthquakes all over the world for the last seven days. Using JavaScript’s D3 library, I retrieved GeoJSON data from the USGS website. (Num of Earthquakes, coordinates, magnitudes, etc.) I used the Leaflet library to plot the data on a Mapbox map through an API request and created interactivity for the earthquake data. </p>
+                    </div>
+                    <a href="assets/projects/Earthquake_Challenge/index.html" class="btn"><i class="fab fa-desktop"></i> Live Demo</a>
+                    <a href="https://github.com/shaunwang1350/Mapping_Earthquakes" class="btn"><i class="fab fa-github"></i> Code</a>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-icon">
+                    <i class="fas fa-star fa-align"></i>
+                </div>
+                <div class="timeline-content right">
+                    <h2>BioDiversity</h2>
+                    <p>
+                        JavaScript, JSON, HTML, CSS, Bootstrap | August 2020
+                    </p>
+                    <button type="button" class="collapsible">details</button>
+                    <div class="content">
+                        <p>The project visually presents the differences between the magnitudes of earthquakes all over the world for the last seven days. Using JavaScript’s D3 library, I retrieved GeoJSON data from the USGS website. (Num of Earthquakes, coordinates, magnitudes, etc.) I used the Leaflet library to plot the data on a Mapbox map through an API request and created interactivity for the earthquake data. </p>
+                    </div>
+                    <a href="https://shaunwang1350.github.io/biodiversity/" class="btn"><i class="fab fa-github"></i> Code</a>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-icon">
+                    <i class="fas fa-star fa-align"></i>
+                </div>
+                <div class="timeline-content">
+                    <h2>UFO Sightings: Fact of Fancy?</h2>
+                    <p>
+                        Javascript, CSS, HTML, Webscrapping, Bootstrap, Chrome Developer Tool
+                         | July 2020
+                    </p>
+                    <button type="button" class="collapsible">details</button>
+                    <div class="content">
+                        <p>The project visually presents the differences between the magnitudes of earthquakes all over the world for the last seven days. Using JavaScript’s D3 library, I retrieved GeoJSON data from the USGS website. (Num of Earthquakes, coordinates, magnitudes, etc.) I used the Leaflet library to plot the data on a Mapbox map through an API request and created interactivity for the earthquake data. </p>
+                    </div>
+                    <a href="https://shaunwang1350.github.io/UFOs/" class="btn"><i class="fab fa-github"></i> Code</a>
+
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-icon">
+                    <i class="fas fa-star fa-align"></i>
+
+                </div>
+                <div class="timeline-content right">
+                    <h2>“SNAPSHOT: INVESTIGATIVE, INTERVIEWS ON CHINESE CONTEMPORARY PRIVATE MUSEUM” </h2><p>
+                        Book | May 2015 - Aug 2017
+                    </p>
+                    <button type="button" class="collapsible">details</button>
+                    <div class="content">
+                        <p>
+                            • Spent 2.5 years investigating 40 non-profit contemporary private museums, art foundations, and art centers in China; interviewing 54 museum directors, founders, and CEOs, and compiled into a book over 450 pages in length. Compiled and recorded data/primary sources on private contemporary museums in sectors of museum operations, collection legality issues, corporate structure, export/ import artwork taxes, future developments, etc.
+                            • First to collect quantitative data on private contemporary art organizations in China. Project received ¥190,000 in combined sponsorship from Asia Art Archive, New Century Art Foundation, SAIC, Chao Art Center, and Shanghai Glass Museum.
+                            • Conducted a ‘TED talk’ on the project at Columbia Global Center. Book is featured in 5 major news organizations. (Artnet, Leap Magazine, Artron, Ifeng, Artyoo,) Book has sold over 300 copies in the first week, profiting over ¥60,000.
+                        </p>
+                    </div>
+                    <a href="https://github.com" class="btn"><i class="fab fa-github"></i> Code</a>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-icon">
+                    <i class="fas fa-star fa-align"></i>
+                </div>
+                <div class="timeline-content">
+                    <h2 class="subtitle"> <a href="projects.html">More Projects Here</a></h2>
+                </div>
+            </div>
 
         </div>
-        <div class="awards">
-            <h2>Awards</h2>
+    </div>
 
-        </div>
-        <div class="education">
-            <h2>Education</h2>
-                <ul>
-                    <li>
-                        <h3>Columbia University</h3>
-                        <ul>
-                            <li>Fu Foundation School of Engineering and Applied Science</li>
-                            <li>BootCamp: Data Science & Analytics</li>
-                            <li>May 2020 - Nov 2020</li>
-                        </ul>
-                    </li>
-                    <li>
-                        <h3>Columbia University</h3>
-                        <ul>
-                            <li>Fu Foundation School of Engineering and Applied Science</li>
-                            <li>Masters of Arts</li>
-                            <li>Sep 2019 - May 2021</li>
-                        </ul>
-                    </li>
-                    <li>
-                        <h3>Columbia University</h3>
-                        <ul>
-                            <li>Fu Foundation School of Engineering and Applied Science</li>
-                            <li>Bachelor of Arts</li>
-                            <li>Sep 2015 - May 2019</li>
-                        </ul>
-                    </li>
-                </ul>
+    <section class="container experience-container">
+        <h1 class="title">Experience </h1>
+        <hr />
+        <article class="experience-item">
+            <h3 class="subtitle">Analytics & Research Consultant</h3>
+            <h4 class="subsubtitle">Oxo Group</h4>
+            <span class="text-muted">Part-Time | July 2020 - Present</span>
+            <button type="button" class="collapsible">details</button>
+            <div class="content">
+                <p>Oxo Group intends to deploy and register business overseas in US. Prepared 70+ slide analytical research on state/city selection best fit. With the metrics focusing on, state specific corporate income tax policies, overall tax burden ranking per state, effective total state & local tax rates on Median state Household, Median Home Sales Price for the state’s major city and its projected 10 year growth, cost of business registration, poverty rates, population distribution / safety ratings. Research focused low tax states including: Florida, Delaware, Nevada, Texas, Maine, Wyoming. </p>
+            </div>
+        </article>
+        <hr />
+        <article class="experience-item">
+            <h3 class="subtitle">Research Assistant</h3>
+            <h4 class="subsubtitle">Columbia University Media Center</h4>
+            <span class="text-muted">Part-Time | Jun 2020 - Present</span>
+            <button type="button" class="collapsible">details</button>
+            <div class="content">
+                <p>Assisted joint-department (Data Science & Art History) computer vision project that attempted to automate half-tone differentiation tests. Catalogued 2000+ half-tone photographs / DFT-inputs in order to improve AI accuracy. Most Half-tone identifications had statistical significance, with p-value of 0.05. 
 
-        </div>
-        <div class="certification">
-            <h2>Certification</h2>
-            <ul>
-                <li>
-                    <h3>Chartered Financial Analyst (CFA I) In-progress</h3>
-                    <p> Currently preparing to take the CFA level I in Decem of 2020. Intends to finish CFA II and CFA III in the next two years</p>
-                </li>
-            </ul>
+                With Flash Player’s 2020 EOL, was tasked to retrieved 25+ embedded SWF project files on Media Center website for archival preservation. Wrapped existing project SWF files with Ruffle Flash Player emulator. </p>
+            </div>
+        </article>
+        <hr />
+        <article class="experience-item">
+            <h3 class="subtitle">Client Development Intern</h3>
+            <h4 class="subsubtitle">David Zwirner</h4>
+            <span class="text-muted">Part-Time | Jan 2020 - April 2020</span>
+            <button type="button" class="collapsible">details</button>
+            <div class="content">
+                <p>• Restructured 244 client profiles within DZ’s database, pinpointing those who have inquired IOUs from 2018 - 2020. Processes included targeting client contact type, net worth/assets, collections or comparable (or sources), and biographies.
+                • Compiled preliminary pre-fair market and client data collection for Frieze LA 2020 to maximize the client’s acquisition probability. Data provided support and oversight to the primary sales team to better engage with clients.
+                • Performed Asia market collections research to inbox new clients into the DZDB database. Due to proficiency in language and network, supported Head of Client Development Department and Head of Research department in Asia market research through targeting client contact type, net worth/assets, and biography. </p>
+            </div>
+        </article>
+        <hr />
+        <article class="experience-item">
+            <h3 class="subtitle">Investment Analyst</h3>
+            <h4 class="subsubtitle">Recharge Capital</h4>
+            <span class="text-muted">Part-Time | Sept 2019 - Dec 2019</span>
+            <button type="button" class="collapsible">details</button>
+            <div class="content">
+                <p>Researched and performed due diligence and BMC approach on Mexican co-living Real Estate Technology (LaaS Model) startup. Directly worked with the startup’s founding team to create investment metrics on the company’s unit economics and contribution margins. Proposed downside risk and mitigants to further assist the firm’s investment decision on the startup.
+                • Since S-REITs’ 18% growth in 2019, was tasked to complied market reports on 39 Southeast Asian Real Estate Investment Trusts (REIT) based on Interest Coverage Rates, Yield Rates, 5-year Average Market Value, and REIT gearing averages. Reports assisted the firm’s general partner concerns in macro market entry. </p>
+            </div>
+        </article>
+        <hr />
+        <article class="experience-item">
+            <h3 class="subtitle">Strategy Consultant</h3>
+            <h4 class="subsubtitle">Beijing Center for the Arts + MVRDV</h4>
+            <span class="text-muted">Full-Time | Jun 2019 - Aug 2019</span>
+            <button type="button" class="collapsible">details</button>
+            <div class="content">
+                <p>• Assisted MVRDV (Winy Mass) to strategically plan cultural, commercial, and residential real estate districts for the new Hangzhou cultural heritage zone, located between AliBa-Ba’s new HQ and WisCloud Valley. Aimed to integrate creative culture with its surrounding tech-savvy audience through low Floor Area Ratio (FAR) and Building Coverage Ratio (BCR) planning, while balancing commercial capitalization rates.
+                • Led interns to research and compile data on urban development projects. Data focused on project value-adds that has: improved surrounding art / cultural ecology, constructed adjacent commercial malls, and allocated high-density residential buildings.
+                • Strategically planned corporate structure and cultural content for the Future Contemporary Art Center, The Grand Canal Museum, and The Canal Performance space. Restructured revenue model that synthesized internal operations, external sponsorships, and local government support. </p>
+            </div>
+        </article>
+        <hr />
+    </section>
+
+    <!-- EDUCATION -->
+    <section class="container education-container">
+        <h1 class="title">Education </h1>
+        <hr />
+        <article class="education-item">
+            <h3 class="subtitle">Columbia University</h3>
+            <h4 class="subsubtitle">The Fu Foundation School of Enginnering</h4>
+            <span class="text-muted">Certification: Data Analytics & Visualization | May 2020 - Nov 2020</span>
+        </article>
+        <hr />
+        <article class="education-item">
+            <h3 class="subtitle">Columbia University</h3>
+            <h4 class="subsubtitle">Graduate School of Arts & Sciences</h4>
+            <span class="text-muted">M.A. Art History | Aug 2019 - May 2021</span>
+        </article>
+        <hr />
+        <article class="education-item">
+            <h3 class="subtitle">Columbia University</h3>
+            <h4 class="subsubtitle">Columbia College</h4>
+            <span class="text-muted">B.A. Art History & Business Management | Aug 2015 - May 2019</span>
+        </article>
+        <hr />
+    </section>
+
+    <section class="container education-container">
+        <h1 class="title">Certification </h1>
+        <article class="education-item">
+            <h3 class="subtitle">These are just a few of the certifications I have recieved.</h3>
+        </article>
+    </section>
+
+    <section class="container skill-container">
+        <div class="row">
+            <div class="col-md-10 offset-md-1">
+                <div class="row text-center">
+                    <div class="col">
+                        <div class="skill-bar-title">
+                            <i class="fas fa-balance-scale fa-3x"></i>
+                            <p>CFA Level 1 (In-progress)</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="skill-bar-title">
+                            <i class="fas fa-cubes fa-3x"></i>
+                            <p>Pytorch Certification (In-progress)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
-    </body>
+    </section>
+
+    
+
+    <!-- AVAILABLE FOR WORK -->
+    <section class="container-color">
+        <div class="container">
+            <h1 class="title">I'm available for work.
+            </h1>
+            <h3 class="subtitle">Actively contributing to new projects and seeking a full-time role in a fast-paced,
+                agile environment. <a href="contact.html">Get in touch!</a></h3>
+                
+        </div>
+
+    </section>
+
     <footer>
+        <div class="container">
+            Shaun Wang &copy; 2019 - 2020 |
 
+        </div>
     </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+    <script src="assets/js/app.js"></script>
 </body>
+
 </html>
