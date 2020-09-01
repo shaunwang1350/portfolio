@@ -341,7 +341,34 @@ footer a {
 	}
 }
  
-
+.col-container {
+  display: flex;
+}
+.col1of2 {
+  width: 50%;
+  background: red;
+  border: line black;
+}
+.col1of4 {
+  width: 25%;
+  background: yellow;
+}
+.col1of4--last {
+  background: blue;
+}
+@media all and (max-width: 1000px) {
+  .col-container {
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100px;
+  }
+  .col1of2 {
+    order: 1;
+  }
+  .col1of4 {
+    width: 50%;
+  }
+}
 
 .modal {
   position: fixed;
