@@ -2,13 +2,12 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
 
-    <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css?family=Inconsolata:300,400,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300, 400, 700" rel="stylesheet">
+    <title>Shaun Wang | Portfolio</title>
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -18,384 +17,567 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
 
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300, 400, 700" rel="stylesheet">
+
     <!-- Custom styles for this template -->
-    <link href="assets/css/app.css" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Shaun Wang | Portfolio</title>
+    <link href="assets/css/styles.css" rel="stylesheet" />
 </head>
 
-<body>
-
-    <div class="topnav" id="myTopnav">
-    <a href="contact.html">Contact</a>
-    <a href="projects.html">Projects / Publications</a>
-    <a href="index.html" class="activee">Home</a>
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <i class="fa fa-bars"></i>
-    </a>
-    </div>      
-
-    <header>
-        <div class="wave">
-            <div class="container header-container">
-                <h1 class="name">Shaun Wang</h1>
-                <h3 class="typewriter">Building Chaotic Ideas, and Hoping One Might Be a Unicorn; </h3>
+<body id="page-top" onload="document.body.style.opacity='1'">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark fixed-top text-uppercase" id="mainNav">
+        <div class="container">
+            <button class="navbar-toggler navbar-toggler-right text-uppercase text-white rounded" type="button"
+                data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link " href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#connect">Connect</a>
+                    </li>
+                </ul>
             </div>
         </div>
-        <div class="wave-svg">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" opacity="1" width="100%" height="80"
-                preserveAspectRatio="none" viewBox="0 0 1600 200">
-                <path d="M-8,95.3C-8,95.3,189,2,398,2s604,184.7,800,184.7s412-91.4,412-91.4V271H-8V95.3z" />
-                <path
-                    d="M1610,95.3c0,0-216,80-412,80c-98,0-245.8-40.5-395.1-80.9c149.4,46.2,297.1,92.3,395.1,92.3C1394,186.7,1610,95.3,1610,95.3z" />
-            </svg>
+    </nav>
+
+    <!-- Header -->
+    <header class="masthead bg-primary text-white text-center">
+        <div class="container">
+            <h1 class="mb-0">Hi, I'm Shaun!</h1>
+            <hr />
+            <h2 class="mb-0">
+                Data Scientist - Philosophy Enthusiast - Art 
+                Fanatic
+            </h2>
+
+            <!-- Replace this text with your brand statement or other short text about you. -->
+            <p class="brand-statement">
+                Fond interests in visual arts / art history / philosophy, with a recent burning passion in data science and its intersection with humanities.
+            </p>
         </div>
     </header>
 
-    <section class="container">
-        <h1 class="title2">Thanks for stopping by;
-        </h1>
-        <h3 class="subtitle">I am an graduate student with a passion for data science's intersection with the social sciences; </h3>
-    </section>
+    <!-- Portfolio Grid Section -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <h2 class="text-center text-uppercase text-secondary mb-0">
+                Projects / Publications
+            </h2>
 
-
-    <section class="container skill-container">
-        <div class="row">
-            <div class="col-md-10 offset-md-1">
-
-                <div class="row text-center">
-                    <div class="col">
-                        <div class="skill-bar-title">
-                            <i class="fab fa-html5 fa-3x"></i>
-                            <p>HTML5</p>
+            <!-- Each project should include a header and a picture or animated gif.-->
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                    <a class="portfolio-item d-block mx-auto" data-toggle="modal" data-target="#portfolio-modal-1">
+                        <div class="portfolio-item-caption d-flex position-absolute h-100 w-100 align-bottom">
                         </div>
-                    </div>
-
-                    <div class="col">
-                        <div class="skill-bar-title">
-                            <i class="fab fa-css3-alt fa-3x"></i>
-                            <p>CSS3</p>
+                        <img class="img-fluid" src="assets/img/portfolio/project1.png" alt="Project: Mapping Earthquakes" />
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <a class="portfolio-item d-block mx-auto" data-toggle="modal" data-target="#portfolio-modal-2">
+                        <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
                         </div>
-                    </div>
-                    <div class="col">
-                        <div class="skill-bar-title">
-                            <i class="fab fa-js-square fa-3x"></i>
-                            <p>JavaScript</p>
+                        <img class="img-fluid" src="assets/img/portfolio/project2.png" alt="" />
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <a class="portfolio-item d-block mx-auto" data-toggle="modal" data-target="#portfolio-modal-3">
+                        <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
                         </div>
-                    </div>
-                    <div class="col">
-                        <div class="skill-bar-title">
-                            <i class="fab fa-python fa-3x"></i>
-                            <p>Python</p>
+                        <img class="img-fluid" src="assets/img/portfolio/project3.jpg" alt="" />
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <a class="portfolio-item d-block mx-auto" data-toggle="modal" data-target="#portfolio-modal-4">
+                        <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
                         </div>
-                    </div>
-                    <div class="col">
-                        <div class="skill-bar-title">
-                            <i class="fas fa-database fa-3x"></i>
-                            <p>SQL</p>
+                        <img class="img-fluid" src="assets/img/portfolio/project4.jpg" alt="" />
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <a class="portfolio-item d-block mx-auto" data-toggle="modal" data-target="#portfolio-modal-5">
+                        <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
                         </div>
-                    </div>
-                    <div class="col">
-                        <div class="skill-bar-title">
-                            <i class="fab fa-java fa-3x"></i>
-                            <p>Java</p>
+                        <img class="img-fluid" src="assets/img/portfolio/project5.jpg" alt="" />
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <a class="portfolio-item d-block mx-auto" data-toggle="modal" data-target="#portfolio-modal-6">
+                        <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
                         </div>
-                    </div>
-                    <div class="col">
-                        <div class="skill-bar-title">
-                            <i class="fab fa-git fa-3x"></i>
-                            <p>Git</p>
-                        </div>
-                    </div>
+                        <img class="img-fluid" src="assets/img/portfolio/project6.png" alt="" />
+                    </a>
                 </div>
             </div>
         </div>
-
     </section>
 
-    <div class="wave-svg-color">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="darkblue" opacity="1" width="100%" height="80"
-            preserveAspectRatio="none" viewBox="0 0 1600 200">
-            <path d="M-8,95.3C-8,95.3,189,2,398,2s604,184.7,800,184.7s412-91.4,412-91.4V271H-8V95.3z" />
-            <path
-                d="M1610,95.3c0,0-216,80-412,80c-98,0-245.8-40.5-395.1-80.9c149.4,46.2,297.1,92.3,395.1,92.3C1394,186.7,1610,95.3,1610,95.3z" />
-        </svg>
-    </div>
+    <!-- About Section -->
+    <section class="bg-primary text-white mb-0" id="about">
+        <div class="container">
+            <h2 class="text-center text-uppercase text-white">About Me</h2>
+            <hr class="star-light mb-5" />
 
-    <section class="container-color">
+            <p class="about-me text-center">
+                Building Chaotic Ideas, and Hoping One Might Be a Unicorn;
+            </p>
+        </div>
+        <div class="container">
+            <div class="col-md-10 offset-md-1">
+                <div class="row text-center skills-row">
+
+                    <!-- Replace these icons and text with skills you want to show case -->
+                    <!-- You should ideally not include any more than 5-6 tech skills -->
+                    <div class="col">
+                        <i class="fab fa-html5 fa-3x"></i>
+                    </div>
+                    <div class="col">
+                        <i class="fab fa-css3-alt fa-3x"></i>
+                    </div>
+                    <div class="col">
+                        <i class="fab fa-js-square fa-3x"></i>
+                    </div>
+                    <div class="col">
+                        <i class="fab fa-python fa-3x"></i>
+                    </div>
+
+                    <div class="col">
+                        <i class="fas fa-database fa-3x"></i>
+                    </div>
+
+                    <div class="col">
+                        <i class="fab fa-java fa-3x"></i>
+                    </div>
+
+                    <div class="col">
+                        <i class="fab fa-git fa-3x"></i>
+                    </div>
+                </div>
+                <div class="row text-center skills-row">
+                    <div class="col">
+                        <img src="assets/img/exp_logos/image.png" alt="Flowers in Chania" style="width:200px">
+                    </div>
+                    <div class="col">
+                        <img src="assets/img/exp_logos/image2.png" alt="Flowers in Chania" style="width:150px">
+                    </div>
+                    <div class="col">
+                        <img src="assets/img/exp_logos/oxo-group-logo-white.svg" alt="Flowers in Chania" style="width:100px">
+                    </div>
+                    <div class="col">
+                        <img src="assets/img/exp_logos/swp89vos2ffgicxb.jpg" alt="Flowers in Chania" style="width:100px">
+                    </div>
+                    <div class="col">
+                        <img src="assets/img/exp_logos/image3.png" alt="Flowers in Chania" style="width:200px">
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <a class="btn btn-lg btn-outline-light" href="assets/docs/Wang, Shaun Resume.pdf">
+                    <i class="fas fa-download mr-2"></i>
+                    Resume
+                </a>
+            </div>
+        </div>
     </section>
-    <section class="container">
-        <div class="card custom-card">
-            <div class="card-body">
-                <span class="card-icon">
-                    <i class="fas fa-code"></i>
-                </span>
 
-                <h3 class="card-title">More about Me</h3>
-                <p class="card-text">
-                    Fond interests in visual arts / art history / philosophy, with a recent burning passion in data science and its intersection with humanities.</p>
+    <!-- Experience -->
+    <section class="experience" id="experience">
+        <div class="container">
+            <h2 class="text-center text-uppercase text-secondary mb-0">
+                Experience
+            </h2>
+            <div class="credential">
+                <h2 class="location mb-0">
+                    Oxo Group |
+                    <span class="credential-date text-muted">July 2020 - Present</span>
+                </h2>
+                <p class="lead">Analytics & Research Consultant</p>
+                <p class="credential-description">
+                    - As Oxo Group prepares to register business overseas in US, compiled 70+ slides analytical research on state/city selection and best fit. With the metrics focusing on, state-specific corporate income tax policies, overall tax burden ranking per state, effective total state & local tax rates on median state household, median home sales price for the state’s major city and its projected 10 year growth, cost of business registration, poverty rates, population distribution / safety ratings. Research focused on low tax states including: Florida, Delaware, Nevada, Texas, Maine, Wyoming.
                 </p>
             </div>
+            <hr class="credential-divider" />
+            <div class="credential">
+                <h2 class="location mb-0">
+                    Columbia University Media Center |
+                    <span class="credential-date text-muted">Jun 2020 - Present</span>
+                </h2>
+                <p class="lead">Research Assistant</p>
+                <p class="credential-description">
+                    - Assisted joint-department (Data Science & Art History) computer vision project that attempted to automate half-tone differentiation tests. Catalogued 2000+ half-tone photographs / DFT-inputs in order to improve AI accuracy. Most Half-tone identifications had statistical significance, with p-value of 0.05. 
+                    <br>
+                    - With Flash Player’s 2020 EOL, was tasked to retrieved 25+ embedded SWF project files on Media Center website for archival preservation. Wrapped existing project SWF files with Ruffle Flash Player emulator. 
+                    </p>
+            </div>
+            <hr class="credential-divider" />
+            <div class="credential">
+                <h2 class="location mb-0">
+                    David Zwirner |
+                    <span class="credential-date text-muted">Jan 2020 - April 2020</span>
+                </h2>
+                <p class="lead">Client Development Intern</p>
+                <p class="credential-description">
+                    - Assisted joint-department (Data Science & Art History) computer vision project that attempted to automate half-tone differentiation tests. Catalogued 2000+ half-tone photographs / DFT-inputs in order to improve AI accuracy. Most Half-tone identifications had statistical significance, with p-value of 0.05. 
+                    <br>
+                    - With Flash Player’s 2020 EOL, was tasked to retrieved 25+ embedded SWF project files on Media Center website for archival preservation. Wrapped existing project SWF files with Ruffle Flash Player emulator.
+                    </p>
+            </div>
+            <hr class="credential-divider" />
+            <div class="credential">
+                <h2 class="location mb-0">
+                    Recharge Capital |
+                    <span class="credential-date text-muted">Sept 2019 - Dec 2019</span>
+                </h2>
+                <p class="lead">Investment Analyst</p>
+                <p class="credential-description">
+                    - Performed due diligence and BMC approach on Mexican co-living Real Estate Technology (LaaS Model) startup. Directly worked with the startup’s C-suite to model the company’s unit economics and contribution margins. Proposed downside risk and mitigants to further assist the VC’s commitment decision on the startup. 
+                    <br>
+                    - Since S-REITs’ 18% growth in 2019, was tasked to compile market reports on 39 S-RIETS based on Interest Coverage Rates, Yield Rates, 5-year Average Market Value, and REIT gearing averages. Reports assisted general partner's decision in macro market entry.
+                    </p>
+            </div>
+            <hr class="credential-divider" />
+            <div class="credential">
+                <h2 class="location mb-0">
+                    Beijing Center for the Arts + MVRDV |
+                    <span class="credential-date text-muted">Jun 2019 - Aug 2019</span>
+                </h2>
+                <p class="lead">Strategy Consultant</p>
+                <p class="credential-description">
+                    - Assisted MVRDV to strategically curate cultural, commercial, and residential real estate districts for new Hangzhou cultural heritage zone, located between AliBa-Ba’s new HQ and WisCloud Valley. Aimed to balance artistic ecology with surrounding tech-savvy audience through low Floor Area Ratios and Building Coverage Ratios, while balancing commercial capitalization rates.
+                    <br>
+                    - Led intern team to compile data on urban development comparative analysis report. Data focused on project value-adds that has: 1. improved surrounding art / cultural ecology, 2. constructed adjacent commercial malls, and 3. allocated high-density residential buildings.
+                    <br>
+                    - Assisted corporate structure planning and restructured revenue model that synthesized internal operations, external sponsorships, and local government support. Won bid for project with $300 million in financing.
+                    </p>
+            </div>
+            <hr class="credential-divider" />
+            
         </div>
     </section>
 
-    <!-- TIMELINE -->
-    <section class="container">
-        <h1 class="title"> Featured Projects / Publications</h1>
-        <h3 class="subtitle">These are just a few of the projects / publications I have created:</h3>
-    </section>
-
-
-    <div class="container">
-        <div id="timeline">
-            <div class="timeline-item">
-                <div class="timeline-icon">
-                    <i class="fas fa-star fa-align"></i>
-
-                </div>
-                <div class="timeline-content">
-                    <h2>Earthquakes (Live)</h2>
-                    <p>
-                        Javascript, CSS, HTML, GeoJSON, Mapbox API, Leaflet | August 2020
-                    </p>
-                    <button type="button" class="collapsible">details</button>
-                    <div class="content">
-                        <p>The project visually presents the differences between the magnitudes of earthquakes all over the world for the last seven days. Using JavaScript’s D3 library, I retrieved GeoJSON data from the USGS website. (Num of Earthquakes, coordinates, magnitudes, etc.) I used the Leaflet library to plot the data on a Mapbox map through an API request and created interactivity for the earthquake data. </p>
-                    </div>
-                    <a href="assets/projects/Earthquake_Challenge/index.html" class="btn"><i class="fab fa-desktop"></i> Live Demo</a>
-                    <a href="https://github.com/shaunwang1350/Mapping_Earthquakes" class="btn"><i class="fab fa-github"></i> Code</a>
-                </div>
-            </div>
-
-            <div class="timeline-item">
-                <div class="timeline-icon">
-                    <i class="fas fa-star fa-align"></i>
-                </div>
-                <div class="timeline-content right">
-                    <h2>NASA Webscrapping</h2>
-                    <p>
-                        Python, Jupyter Notebook, HTML, CSS, Bootstrap, BeautifulSoup, Splinter, Flask, MongoDB | August 2020
-                    </p>
-                    <button type="button" class="collapsible">details</button>
-                    <div class="content">
-                        <p>Robin’s web app is looking good and functioning well, but she wanted to add more polish to it. She had been admiring images of Mars’ hemispheres and realized that the site is scraping-friendly. She would like to adjust the current web app to include all four of the hemispheres images. This requires additional scraping code to pull the high-resolution images, updating Mongo to include the new data, and altering the design of her web app to accommodate these images.</p>
-                    </div>
-                    <a href="https://github.com/shaunwang1350/mars_scraping" class="btn"><i class="fab fa-github"></i> Code</a>
-                </div>
-            </div>
-
-            <div class="timeline-item">
-                <div class="timeline-icon">
-                    <i class="fas fa-star fa-align"></i>
-                </div>
-                <div class="timeline-content">
-                    <h2>UFO Sightings: Fact of Fancy?</h2>
-                    <p>
-                        Javascript, CSS, HTML, Webscrapping, Bootstrap, Chrome Developer Tool
-                         | July 2020
-                    </p>
-                    <button type="button" class="collapsible">details</button>
-                    <div class="content">
-                        <p>The project visually presents the differences between the magnitudes of earthquakes all over the world for the last seven days. Using JavaScript’s D3 library, I retrieved GeoJSON data from the USGS website. (Num of Earthquakes, coordinates, magnitudes, etc.) I used the Leaflet library to plot the data on a Mapbox map through an API request and created interactivity for the earthquake data. </p>
-                    </div>
-                    <a href="https://shaunwang1350.github.io/UFOs/" class="btn"><i class="fab fa-github"></i> Code</a>
-
-                </div>
-            </div>
-
-
-            <div class="timeline-item">
-                <div class="timeline-icon">
-                    <i class="fas fa-star fa-align"></i>
-                </div>
-                <div class="timeline-content right">
-                    <h2>BioDiversity</h2>
-                    <p>
-                        JavaScript, JSON, HTML, CSS, Bootstrap | July 2020
-                    </p>
-                    <button type="button" class="collapsible">details</button>
-                    <div class="content">
-                        <p>Used Plotly.js, a JavaScript data visualization library, to create a web interactive data visualization. It includes a completed panel for demographic information that visualizes bacterial data in 1700+ volunteers' belly button. It also allows for the identification of the top 10 bacterial species in their belly buttons, completeddwith a dashboard that displays volunteers hygiene level. </p>
-                    </div>
-                    <a href="https://shaunwang1350.github.io/biodiversity/" class="btn"><i class="fab fa-github"></i> Code</a>
-                </div>
-            </div>
-
-            <div class="timeline-item">
-                <div class="timeline-icon">
-                    <i class="fas fa-star fa-align"></i>
-
-                </div>
-                <div class="timeline-content">
-                    <h2>“Snapshot: Investigative Interviews on Chinese Contemporary Museums” </h2><p>
-                        Book | May 2015 - Aug 2017
-                    </p>
-                    <button type="button" class="collapsible">details</button>
-                    <div class="content">
-                        <p>- Spent 2.5 years investigating 40 non-profit contemporary private museums, art foundations, and art centers in China, interviewing 54 museum directors, and founders. The research compiled into a book over 450 pages in length. Obtained primary data and recorded interviews on issues of museum operations, collection legality, corporate structure, export/import artwork taxes, etc. <br>- First to collect quantitative data on private contemporary art organizations in China. The project received ¥190,000 in combined sponsorships from Asia Art Archive, New Century Art Foundation, SAIC, Chao Art Center, and Shanghai Glass Museum. <br>- Columbia Global Center organized symposium to reveal book. Book is featured in 5 major news organizations. (Artnet, Leap Magazine, Artron, Ifeng, Artyoo,) The book sold over 400 copies in the first week.
-                        </p>
-                    </div>
-                    <a href="https://globalcenters.columbia.edu/events/snapshot-discussion-chinese-contemporary-private-art-museums" class="btn"><i class="fas fa-book"></i> Full Text</a>
-                </div>
-            </div>
-            <div class="timeline-item right">
-                <h2 class="subtitle"> <a href="projects.html">More Projects Here...</a></h2>
-                </div>
-            </div>
-
-        </div>
-    </div>
-
-    <section class="container experience-container">
-        <h1 class="title">Experience </h1>
-        <hr />
-        <article class="experience-item">
-            <h3 class="subtitle">Oxo Group</h3>
-            <h4 class="subsubtitle">Analytics & Research Consultant</h4>
-            <span class="text-muted">July 2020 - Present</span>
-            <button type="button" class="collapsible">details</button>
-            <div class="content">
-                <p>- As Oxo Group prepares to register business overseas in US, compiled 70+ slides analytical research on state/city selection and best fit. With the metrics focusing on, state-specific corporate income tax policies, overall tax burden ranking per state, effective total state & local tax rates on median state household, median home sales price for the state’s major city and its projected 10 year growth, cost of business registration, poverty rates, population distribution / safety ratings. Research focused on low tax states including: Florida, Delaware, Nevada, Texas, Maine, Wyoming. </p>
-            </div>
-        </article>
-        <hr />
-        <article class="experience-item">
-            <h3 class="subtitle">Columbia University Media Center</h3>
-            <h4 class="subsubtitle">Research Assistant</h4>
-            <span class="text-muted">Jun 2020 - Present</span>
-            <button type="button" class="collapsible">details</button>
-            <div class="content">
-                <p>- Assisted joint-department (Data Science & Art History) computer vision project that attempted to automate half-tone differentiation tests. Catalogued 2000+ half-tone photographs / DFT-inputs in order to improve AI accuracy. Most Half-tone identifications had statistical significance, with p-value of 0.05. 
-                <br>
-                - With Flash Player’s 2020 EOL, was tasked to retrieved 25+ embedded SWF project files on Media Center website for archival preservation. Wrapped existing project SWF files with Ruffle Flash Player emulator. </p>
-            </div>
-        </article>
-        <hr />
-        <article class="experience-item">
-            <h3 class="subtitle">David Zwirner</h3>
-            <h4 class="subsubtitle">Client Development Intern</h4>
-            <span class="text-muted">Jan 2020 - April 2020</span>
-            <button type="button" class="collapsible">details</button>
-            <div class="content">
-                <p>- Restructured 240+ client profiles within database, pinpointing those IOUs inquiries from 2018 - 2020. Processes included targeting client contact type, net worth/assets, comparative collections, and biographies.
-                <br>
-                - Compiled 200+ client preliminary pre-fair market data for Frieze LA 2020 to maximize the client’s acquisition probability. The data provided critical support and insights to primary sales team operating on the ground in order to better engage with clients.</p>
-            </div>
-        </article>
-        <hr />
-        <article class="experience-item">
-            <h3 class="subtitle">Recharge Capital</h3>
-            <h4 class="subsubtitle">Investment Analyst</h4>
-            <span class="text-muted">Sept 2019 - Dec 2019</span>
-            <button type="button" class="collapsible">details</button>
-            <div class="content">
-                <p>- Performed due diligence and BMC approach on Mexican co-living Real Estate Technology (LaaS Model) startup. Directly worked with the startup’s C-suite to model the company’s unit economics and contribution margins. Proposed downside risk and mitigants to further assist the VC’s commitment decision on the startup. 
-                <br>
-                - Since S-REITs’ 18% growth in 2019, was tasked to compile market reports on 39 S-RIETS based on Interest Coverage Rates, Yield Rates, 5-year Average Market Value, and REIT gearing averages. Reports assisted general partner's decision in macro market entry.</p>
-            </div>
-        </article>
-        <hr />
-        <article class="experience-item">
-            <h3 class="subtitle">Beijing Center for the Arts + MVRDV</h3>
-            <h4 class="subsubtitle">Strategy Consultant</h4>
-            <span class="text-muted">Jun 2019 - Aug 2019</span>
-            <button type="button" class="collapsible">details</button>
-            <div class="content">
-                <p> - Assisted MVRDV to strategically curate cultural, commercial, and residential real estate districts for new Hangzhou cultural heritage zone, located between AliBa-Ba’s new HQ and WisCloud Valley. Aimed to balance artistic ecology with surrounding tech-savvy audience through low Floor Area Ratios and Building Coverage Ratios, while balancing commercial capitalization rates.
-                <br>
-                - Led intern team to compile data on urban development comparative analysis report. Data focused on project value-adds that has: 1. improved surrounding art / cultural ecology, 2. constructed adjacent commercial malls, and 3. allocated high-density residential buildings.
-                <br>
-                - Assisted corporate structure planning and restructured revenue model that synthesized internal operations, external sponsorships, and local government support. Won bid for project with $300 million in financing.
-                     </p>
-            </div>
-        </article>
-        <hr />
-    </section>
-
-    <!-- EDUCATION -->
-    <section class="container education-container">
-        <h1 class="title">Education </h1>
-        <hr />
-        <article class="education-item">
-            <h3 class="subtitle">Columbia University</h3>
-            <h4 class="subsubtitle">The Fu Foundation School of Enginnering</h4>
-            <span class="text-muted">Certification: Data Analytics & Visualization | May 2020 - Nov 2020</span>
-        </article>
-        <hr />
-        <article class="education-item">
-            <h3 class="subtitle">Columbia University</h3>
-            <h4 class="subsubtitle">Graduate School of Arts & Sciences</h4>
-            <span class="text-muted">M.A. Art History | Aug 2019 - May 2021</span>
-        </article>
-        <hr />
-        <article class="education-item">
-            <h3 class="subtitle">Columbia University</h3>
-            <h4 class="subsubtitle">Columbia College</h4>
-            <span class="text-muted">B.A. Art History & Business Management | Aug 2015 - May 2019</span>
-        </article>
-        <hr />
-    </section>
-
-    <section class="container education-container">
-        <h1 class="title">Certification </h1>
-        <article class="education-item">
-            <h3 class="subtitle">These are just a few of the certifications I have recieved.</h3>
-        </article>
-    </section>
-
-    <section class="container skill-container">
-        <div class="row">
-            <div class="col-md-10 offset-md-1">
-                <div class="row text-center">
-                    <div class="col">
-                        <div class="skill-bar-title">
-                            <i class="fas fa-balance-scale fa-3x"></i>
-                            <p>CFA Level 1 (In-progress)</p>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="skill-bar-title">
-                            <i class="fas fa-cubes fa-3x"></i>
-                            <p>Pytorch Certification (In-progress)</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </section>
-
-    
-
-    <!-- AVAILABLE FOR WORK -->
-    <section class="container-color">
+    <!-- Education -->
+    <section class="education" id="education">
         <div class="container">
-            <h1 class="title">I'm available for work.
-            </h1>
-            <h3 class="subtitle">Actively contributing to new projects and seeking a full-time role in a fast-paced,
-                agile environment. <a href="contact.html"><b> Get in touch!</b></a></h3>
-                
-        </div>
+            <h2 class="text-center text-uppercase text-secondary2 mb-0">
+                Education
+            </h2>
+            <div class="credential">
+                <h2 class="location mb-0">
+                    Columbia University |
+                    <span class="credential-date text-muted">May 2020 - Nov 2020</span>
+                </h2>
+                <p class="lead">Certification: Data Analytics & Visualization | The Fu Foundation School of Enginnering</p>
+                <p class="credential-description">
+                    Columbia University Data Science Boot Camp teaches specialized skills for data analytics and visualization.
+                    Through the fast-paced, 6 months immersive curriculum, I’ve learnt: Python (Pandas, Matplotlib, API retrieval, Regex, SQL/SQLite ETL processes, PySpark, Plotly, Tableau), R (ETL Processes, NLP), AWS (S3), HTML/CSS/Javascript (Web Scraping, API retrieval), Clustering, K-means Algorithm, and Neural Networks.
+                </p>
+            </div>
+            <hr class="credential-divider" />
+            <div class="credential">
+                <h2 class="location mb-0">
+                    Columbia University |
+                    <span class="credential-date text-muted">Aug 2010 - May 2015</span>
+                </h2>
+                <p class="lead">M.A. MODA Program: Critical & Curatorial Studies | Graduate School of Arts & Sciences</p>
+                <p class="credential-description">
+                    The MODA program is a specialized program for students who want to pursue advanced research in all fields in modern and contemporary (20th and 21st c) cultural strategies, curatorial thinking, and art history. The program prepares students for further study at the doctoral level and maintains that historians and critics engaged with modern and contemporary critical theories, as well as the changing nature of cultural institutions and platforms. 
+                </p>
+            </div>
+            <hr class="credential-divider" />
+            <div class="credential">
+                <h2 class="location mb-0">
+                    Columbia University |
+                    <span class="credential-date text-muted">Aug 2015 - May 2019</span>
+                </h2>
+                <p class="lead">B.A. Business Management & Art History | Columbia College</p>
+                <p class="credential-description">
+                    Business Management at the Mendelson Center for Undergraduate Business Initiatives is intends to serve as a complement to a major. The specialized cocurricular programming capitalizes on Columbia Business School’s ability to connect academic theory while developing key leadership skills, an entrepreneurial mindset, and the ability to innovate. This Business program completements Columbia's selection of Philosophy / Art History Professors, such as Arthur Danto, Meyer Schapiro, Rudolf Wittkower, Robert Branner, Howard McP. Davis, John Rajchman, Akeel Bilgrami, Christia Mercer. 
+                </p>
 
+                <!-- <span id="dots">...</span><span id="more"></span>
+                <button onclick="myFunction()" id="Btn">Read more</button> -->
+            </div>
+            <hr class="credential-divider" />
+        </div>
     </section>
 
-    <footer>
+    <!-- Footer -->
+    <footer class="footer text-center" id="connect">
         <div class="container">
-            Shaun Wang &copy; 2019 - 2020 |
-
+            <div class="row">
+                <div class="col-md-6 offset-md-3">
+                    <h2 class="text-center text-uppercase mb-3">
+                        Let's get connected! 
+                    </h2>
+                    <p class="text-uppercase mb-4">
+                        You can reach me at any of the following platforms:
+                    </p>
+                    <p class="text-uppercase mb-4">
+                        shaunwangg@gmail.com
+                    </p>
+                    <ul class="list-inline mb-0">
+                        <li class="list-inline-item">
+                            <a class="btn-social text-center rounded-circle" href="#">
+                                <i class="fab fa-fw fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="btn-social text-center rounded-circle" href="#">
+                                <i class="fab fa-fw fa-linkedin-in"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="btn-social text-center rounded-circle" href="https://github.com/USER">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </footer>
 
+    <div class="copyright py-4 text-center text-white">
+        <div class="container">
+            <small>Copyright &copy; Shaun Wang 2019-2020</small>
+        </div>
+    </div>
 
+
+
+    <!-- Portfolio Modals: These are what open up when you click on each project. Replace the information as needed. -->
+    <!-- Portfolio Modal 1 -->
+    <div class="modal portfolio-modal mfp-hide" id="portfolio-modal-1">
+        <div class="portfolio-modal-dialog bg-white">
+            <a class="close-button portfolio-modal-dismiss" href="#" data-dismiss="modal">
+                <i class="fa fa-2x fa-times close-link"></i>
+            </a>
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <h2 class="text-secondary text-uppercase mb-0">
+                            Project Name 1
+                        </h2>
+                        <hr class="star-dark mb-5" />
+                        <img class="img-fluid mb-5" src="img/portfolio/project1.jpg" alt="" />
+                        <p class="mb-5">
+                            Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit. Mollitia neque assumenda ipsam
+                            nihil, molestias magnam, recusandae quos quis
+                            inventore quisquam velit asperiores, vitae?
+                            Reprehenderit soluta, eos quod consequuntur
+                            itaque. Nam.
+                        </p>
+                        <a class="btn btn-primary portfolio-modal-dismiss" href="#">
+                            Live Demo</a>
+                        <a class="btn btn-primary portfolio-modal-dismiss" href="#">
+                            View Code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 2 -->
+    <div class="modal portfolio-modal mfp-hide" id="portfolio-modal-2">
+        <div class="portfolio-modal-dialog bg-white">
+            <a class="close-button portfolio-modal-dismiss" href="#" data-dismiss="modal">
+                <i class="fa fa-2x fa-times close-link"></i>
+            </a>
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <h2 class="text-secondary text-uppercase mb-0">
+                            Project Name
+                        </h2>
+                        <hr class="star-dark mb-5" />
+                        <img class="img-fluid mb-5" src="img/portfolio/project2.jpg" alt="" />
+                        <p class="mb-5">
+                            Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit. Mollitia neque assumenda ipsam
+                            nihil, molestias magnam, recusandae quos quis
+                            inventore quisquam velit asperiores, vitae?
+                            Reprehenderit soluta, eos quod consequuntur
+                            itaque. Nam.
+                        </p>
+                        <a class="btn btn-primary portfolio-modal-dismiss" href="#">
+                            Live Demo
+                        </a>
+
+                        <a class="btn btn-primary portfolio-modal-dismiss" href="#">
+                            View Code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 3 -->
+    <div class="modal portfolio-modal mfp-hide" id="portfolio-modal-3">
+        <div class="portfolio-modal-dialog bg-white">
+            <a class="close-button portfolio-modal-dismiss" href="#" data-dismiss="modal">
+                <i class="fa fa-2x fa-times close-link"></i>
+            </a>
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <h2 class="text-secondary text-uppercase mb-0">
+                            Project Name
+                        </h2>
+                        <hr class="star-dark mb-5" />
+                        <img class="img-fluid mb-5" src="img/portfolio/project3.jpg" alt="" />
+                        <p class="mb-5">
+                            Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit. Mollitia neque assumenda ipsam
+                            nihil, molestias magnam, recusandae quos quis
+                            inventore quisquam velit asperiores, vitae?
+                            Reprehenderit soluta, eos quod consequuntur
+                            itaque. Nam.
+                        </p>
+                        <a class="btn btn-primary portfolio-modal-dismiss" href="#">
+                            Live Demo
+                        </a>
+
+                        <a class="btn btn-primary portfolio-modal-dismiss" href="#">
+                            View Code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 4 -->
+    <div class="modal portfolio-modal mfp-hide" id="portfolio-modal-4">
+        <div class="portfolio-modal-dialog bg-white">
+            <a class="close-button portfolio-modal-dismiss" href="#" data-dismiss="modal">
+                <i class="fa fa-2x fa-times close-link"></i>
+            </a>
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <h2 class="text-secondary text-uppercase mb-0">
+                            Project Name
+                        </h2>
+                        <hr class="star-dark mb-5" />
+                        <img class="img-fluid mb-5" src="img/portfolio/project4.jpg" alt="" />
+                        <p class="mb-5">
+                            Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit. Mollitia neque assumenda ipsam
+                            nihil, molestias magnam, recusandae quos quis
+                            inventore quisquam velit asperiores, vitae?
+                            Reprehenderit soluta, eos quod consequuntur
+                            itaque. Nam.
+                        </p>
+                        <a class="btn btn-primary portfolio-modal-dismiss" href="#">
+                            Live Demo
+                        </a>
+
+                        <a class="btn btn-primary portfolio-modal-dismiss" href="#">
+                            View Code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 5 -->
+    <div class="modal portfolio-modal mfp-hide" id="portfolio-modal-5">
+        <div class="portfolio-modal-dialog bg-white">
+            <a class="close-button portfolio-modal-dismiss" href="#" data-dismiss="modal">
+                <i class="fa fa-2x fa-times close-link"></i>
+            </a>
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <h2 class="text-secondary text-uppercase mb-0">
+                            Project Name
+                        </h2>
+                        <hr class="star-dark mb-5" />
+                        <img class="img-fluid mb-5" src="img/portfolio/project5.jpg" alt="" />
+                        <p class="mb-5">
+                            Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit. Mollitia neque assumenda ipsam
+                            nihil, molestias magnam, recusandae quos quis
+                            inventore quisquam velit asperiores, vitae?
+                            Reprehenderit soluta, eos quod consequuntur
+                            itaque. Nam.
+                        </p>
+                        <a class="btn btn-primary portfolio-modal-dismiss" href="#">
+                            Live Demo
+                        </a>
+
+                        <a class="btn btn-primary portfolio-modal-dismiss" href="#">
+                            View Code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 6 -->
+    <div class="modal portfolio-modal mfp-hide" id="portfolio-modal-6">
+        <div class="portfolio-modal-dialog bg-white">
+            <a class="close-button portfolio-modal-dismiss" href="#" data-dismiss="modal">
+                <i class="fa fa-2x fa-times close-link"></i>
+            </a>
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <h2 class="text-secondary text-uppercase mb-0">
+                            Project Name
+                        </h2>
+                        <hr class="star-dark mb-5" />
+                        <img class="img-fluid mb-5" src="img/portfolio/project6.jpg" alt="" />
+                        <p class="mb-5">
+                            Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit. Mollitia neque assumenda ipsam
+                            nihil, molestias magnam, recusandae quos quis
+                            inventore quisquam velit asperiores, vitae?
+                            Reprehenderit soluta, eos quod consequuntur
+                            itaque. Nam.
+                        </p>
+                        <a class="btn btn-primary portfolio-modal-dismiss" href="#">
+                            Live Demo
+                        </a>
+
+                        <a class="btn btn-primary portfolio-modal-dismiss" href="#">
+                            View Code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
-        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
         crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
-        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"
+        integrity="sha256-0YPKAwZP7Mp3ALMRVB2i8GXeEndvCq3eSl/WsAl1Ryk=" crossorigin="anonymous"></script>
+
     <script src="assets/js/app.js"></script>
 </body>
 
