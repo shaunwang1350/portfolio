@@ -384,6 +384,12 @@ a:active {
     position: relative;
     animation: animatebottom 0.4s;
 }
+
+.awardText{
+    padding-top: 10px;
+    color: rgb(88, 88, 88);
+    font-size: 0.85rem;
+}
   
 @keyframes animatebottom {
     from {
