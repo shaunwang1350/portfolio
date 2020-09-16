@@ -95,9 +95,9 @@ ol {
 /*------------------------
   Common Elements
 --------------------------*/
-.element {
+/* .element {
   margin-bottom: 100px;
-}
+} */
 
 .element:last-child {
   margin-bottom: 0;
@@ -786,12 +786,28 @@ ol {
 .project-subtitle {
   color: white;
   font-size: 40px;
-  padding-top: 2%;
+  padding-top: 4%;
   padding-bottom: 2%;
+}
+.element a{
+  color:darkred;
+}
+
+.element a:hover{
+  color:grey;
 }
 
 .element i{
   color: white;
+}
+
+.element p{
+  padding-bottom: 3%;
+}
+
+.carousel-example-2 {
+  margin-top: 2%;
+  margin-bottom: 2%
 }
 
 /* ===========================
