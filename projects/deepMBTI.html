@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Shaun Wang | DeepMBTI</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="Portfolio">
+	<meta name="keywords" content="DeepMBTI, Myers-Briggs, Machine Learningportfolio, shaun, wang, datascience, creative, html">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Favicon -->   
+	<link href="../img/favicon.ico" rel="shortcut icon"/>
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,400i,600,600i,700" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"/>
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="../css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="../css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="../css/style.css"/>
+
+
+	<!--[if lt IE 9]>
+	  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+</head>
+<body>
+	<!-- Page Preloder -->
+	<div id="preloder">
+		<div class="loader"></div>
+	</div>
+
+	<!-- header section start -->
+	<header class="header-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4">
+					<div class="logo">
+						<h2 class="site-logo">SW</h2>
+					</div>
+				</div>
+				<div class="col-lg-8">
+					<a href="contact.html" class="site-btn header-btn">Get in touch</a>
+					<nav class="main-menu">
+						<ul>
+							<li><a href="../index.html">Home</a></li>
+							<li><a href="../about.html">About</a></li>
+							<li><a href="../home-2.html">Projects</a></li>
+							<li><a href="../contact.html">Contact</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- header section end -->
+
+	<!-- page section start -->
+	<section class="page-section pt100">
+		<div class="container">
+            <div class="element">
+				<a href="../home-2.html">< return to projects</a>
+				<hr>
+					<div class="section-title mb-5">Full-Stack App: DeepMBTI</div>
+					<div class="section-title-desc">
+                        <p>DeepMBTI is an AI-powered MBTI full-stack predictor application. The app includes an interactive front-end that links to an NLP Log Reg ML Model back-end, utilizing HTML/CSS, Python, Flask, PostgreSQL, and Sklearn. DeepMBTI was the capstone project for Columbia University Data Analytics and Visualization Bootcamp.</p>
+					</div>
+			</div>
+			<div class="col text-center">
+				<img src="/img/exp_logos/image3.png" alt="Awards" style="width:500px">
+			</div>
+		
+            <div class="element">
+				<div class="text-left">
+					<h2 class="project-subtitle">Problem</h2>
+					<div class="description">
+                        <p>Myers-Briggs Type Indicator (MBTI) is one of the most prevalent personality tests in psychology. Its purpose is to classify psychological profiles based on the assumption that variations in everyday behavior are ordered, consistent and capable of being categorized. Currently, the MBTI test is performed by an online quiz. However, these tests often include intrinsic biases because the subject is conscious of the quiz's processes and will answer accordingly.</p>
+					</div>
+				</div>
+            </div>
+            
+            <div class="element">
+				<div class="text-left">
+					<h2 class="project-subtitle">Motivation</h2>
+					<div class="description">
+                        <p>Therefore, we wanted to create a more objective process for testing MBTI. By inputting writing from the subject, we hope to train a machine learning model to predict their personality category through text analytics. Hopefully, this will eliminate input biases from the subject.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="element">
+				<div class="text-left">
+					<h2 class="project-subtitle">Aims</h2>
+					<div class="description">
+                        <p> - Explore and analyze the data to see if any patterns can be detected in specific personality types and their writing styles.
+						<br>
+						- Create a Machine Learning model capable of predicting personality type based on the writing input, so the test taker bias is removed.
+							</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="element">
+				<div class="text-left">
+					<h2 class="project-subtitle">Demo Video:</h2>
+					<iframe width="100%" height="600" src="https://www.youtube.com/embed/g5q-EGc95Cc" frameborder="0" allowfullscreen>
+					</iframe>
+				</div>
+			</div>
+		</div>
+
+	<!--Carousel Wrapper-->
+	<br>
+		<div class="container">
+            <div class="element">
+				<div class="text-left">
+					<h2 class="project-subtitle">Processes</h2>
+					<div class="description">
+                        <p>The development of DeepMBTI took on three crucial steps. These broad three steps includes examining the data and extracting important, selecting the most accurate ML model, and developing an interactive application</p>
+					</div>
+				</div>
+			</div>
+			<div class="element">
+				<div class="row">
+					<div class="col-md-4">
+						<div class="icon-box mb-5 mb-md-0">
+							<div class="icon">
+								<h2>01.</h2>
+							</div>
+							<div class="icon-box-content">
+								<h3>Data Analysis</h3>
+								<p>The dataset contains ~ 8,600 observations (people) imported from Kaggle, where each observation gives a person’s: Myers-Briggs personality type (as a four-letter code). An excerpt containing the last 50 posts on their PersonalityCafe forum (each entry separated by “|||”). After an EDA, we resampled our data since some of the dimensions were not balanced.
+									</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="icon-box mb-5 mb-md-0">
+							<div class="icon">
+								<h2>02.</h2>
+							</div>
+							<div class="icon-box-content">
+								<h3>Machine Learning Models</h3>
+								<p>For our ML models, we chose Logistic Regression as our final ML model. That said, we tested four different ML models to see which one would provide us the best F1 accuracy. These models include: Log Reg, SVM, Random Forst, and Neural Network</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="icon-box ">
+							<div class="icon">
+								<h2>03.</h2>
+							</div>
+							<div class="icon-box-content">
+								<h3>Interactive Application</h3>
+								<p>The weights of our model and a vectorizor was saved using pickle. It was then imported infor Flask and connected to its front-end.</p>
+							</div>
+						</div>
+					</div>
+					<img src="../img/portfolio/deepMBTI/systemFlow.png">
+					<img src="../img/portfolio/deepMBTI/mlModels.png">
+					<img src="../img/portfolio/deepMBTI/backEnd.png">
+				</div>
+			</div>
+            <div class="element">
+				<div class="text-left">
+					<h2 class="project-subtitle">Technologies Used</h2>
+					<div class="description">
+                        <p>DeepMBTI's full-stack design utilizes an NLP Logistic Regression ML Model back-end, HTML/CSS, Python, Flask, PostgreSQL, and Sklearn.</p>
+					</div>
+				</div>
+				<div class="col-md-12">
+					<div class="row text-center skills-row">
+	
+						<!-- Replace these icons and text with skills you want to show case -->
+						<!-- You should ideally not include any more than 5-6 tech skills -->
+						<div class="col">
+							<i class="fab fa-python fa-3x"></i>
+							<p>Python</p>
+						</div>
+	
+						<div class="col">
+							<i class="fas fa-database fa-3x"></i>
+							<p>SQL</p>
+						</div>
+						<div class="col">
+							<i class="fas fa-laptop-code fa-3x"></i>
+							<p>Sklearn</p>
+						</div>
+						<div class="col">
+							<i class="fab fa-html5 fa-3x"></i>
+							<p>HTML5</p>
+						</div>
+						<div class="col">
+							<i class="fab fa-css3-alt fa-3x"></i>
+							<p>CSS3</p>
+						</div>
+						<div class="col">
+							<i class="fas fa-pepper-hot fa-3x"></i>
+							<p>Flask</p>
+						</div>
+						<div class="col">
+							<i class="fab fa-git fa-3x"></i>
+							<p>Git</p>
+						</div>
+					</div>
+				</div>	
+            </div>
+            <div class="element">
+				<div class="text-left">
+					<h2 class="project-subtitle"> Results</h2>
+					<div class="description">
+                        <p>The front-end allows the user to input some of their writings or recent posts on social media. The writing is taken from the text box, cleaned and goes through the ML model to produce the personality prediction. The final result is then printed on the front-end to share with the user. (Source Code Avaliable)
+						</p>
+					</div>
+				</div>
+				<div class="text-left">
+					<h2 class="project-subtitle">Future Developement</h2>
+					<div class="description">
+						<p>At current stage of the project, we discovered a few points we can improve in the future:</p>
+						<ul>
+							<li>
+								<p>Find a better dataset that fits with our purpose of the front-end application: Most of the visitors to our page will likely type some sentences right away, or copy some of their own writings from school or work.However, the dataset we used to train our models primarily consisted of posts in the forum or on social media. The content and style of the writing may be very different
+									</p>
+							</li>
+							<li>
+								<p>We can make our front-end more appealing in terms of content, styling, and creative elements.
+									In the results section, we can create individual explanations for each of the 16 MBTI Types.</p>
+							</li>
+							<li>
+								<p>We can integrate this model into Twilio or Chrome Plugins, so that it could analyze user personality as they work: Commercialization
+									</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			
+			<div class="element">
+				<div class="text-center">
+					<div class="buttons">
+						<a class="site-btn sb-dark mr-4 mb-2" href="https://docs.google.com/presentation/d/1k8EJ2QjWDDRVAvyqtfrXNY97UdiPusOJ8cjnyFdsfmk/edit#slide=id.p1">Presentation</a>
+						<a class="site-btn sb-dark mr-4 mb-2" href="https://github.com/shaunwang1350/MyersBriggsMLProject">Source Code</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- page section end -->
+
+	<!-- footer section start -->
+	<footer class="footer-section text-center">
+		<div class="container">
+			<div class="social-links">
+				<a href="https://www.linkedin.com/in/wang-shaun/"><span class="fa fa-linkedin"></span></a>
+				<a href="https://www.instagram.com/__shaunwangg__/"><span class="fa fa-instagram"></span></a>
+				<a href="https://github.com/shaunwang1350/"><span class="fa fa-github"></span></a>
+			</div>
+
+            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Shaun Wang 
+            </div>
+		</div>
+	</footer>
+	<!-- footer section end -->
+
+	<!--====== Javascripts & Jquery ======-->
+	<script src="../js/jquery-2.1.4.min.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
+	<script src="../js/mixitup.min.js"></script>
+	<script src="../js/circle-progress.min.js"></script>
+	<script src="../js/magnific-popup.min.js"></script>
+	<script src="../js/main.js"></script>
+</body>
+</html>

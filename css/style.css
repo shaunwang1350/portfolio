@@ -5,6 +5,7 @@ body {
   /* font-family: 'Roboto Mono'; */
   background-image: url('../img/bgImg.png');
   background-repeat: repeat;
+  border-width: 0.1px;
 }
 
 h1,
@@ -90,6 +91,7 @@ ol {
 .section-title-text p {
   color: white;
   font-size: 12px;
+  padding-right: 25%;
 }
 
 /*------------------------
@@ -184,7 +186,7 @@ ol {
 }
 
 .site-btn.btn-line:hover {
-  color: darkred;
+  color: rgb(90,180,200);
 }
 
 .site-btn.btn-line-fade {
@@ -195,7 +197,7 @@ ol {
 }
 
 .site-btn.btn-line-fade:hover {
-  color: darkred;
+  color: rgb(90,180,200);
 }
 
 .site-btn:hover {
@@ -365,15 +367,17 @@ ol {
 .header-section {
   padding-top: 30px;
   padding-bottom: 20px;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 2%;
+  padding-right: 2%;
   position: relative;
+  border-bottom: grey solid;
+  border-width: 1px;
 }
 
 .site-logo {
   font-size: 24px;
   padding-top: 20px;
-  color: darkred
+  color: rgb(90,180,200)
 }
 
 .main-menu ul {
@@ -396,7 +400,7 @@ ol {
 .main-menu ul li a:hover {
   display: inline-block;
   font-size: 18px;
-  color: darkred;
+  color: rgb(90,180,200);
   margin-left: 15px;
   margin-right: 10px;
   padding: 20px 0 5px;
@@ -415,15 +419,16 @@ ol {
     Intro Section
 --------------------------*/
 .intro-section {
-  padding-top: 150px;
-  padding-bottom: 150px;
+  padding-top: 200px;
+  padding-bottom: 200px;
   padding-left: 10%;
   padding-right: 10%;
+  border-width: 0.1px;
 }
 
 .intro-Btn {
   font-size: 15px;
-  color: darkred; 
+  color: rgb(90,180,200); 
 }
 
 .intro-Btn:hover {
@@ -453,12 +458,14 @@ ol {
 .portfolio-section {
   overflow: hidden;
   padding-left: 3%;
-  padding-right: 3%
+  padding-right: 3%;
+  padding-top: 3%;
 }
 
 .portfolio-filter {
   list-style: none;
   padding-bottom: 50px;
+
 }
 
 .portfolio-filter li {
@@ -471,7 +478,7 @@ ol {
 }
 
 .portfolio-filter li.mixitup-control-active {
-  color: darkred;
+  color: rgb(90,180,200);
 }
 
 .portfolios-area .gallery-block {
@@ -566,6 +573,8 @@ ol {
 --------------------------*/
 .footer-section {
   padding: 110px 0;
+  border-top: grey solid;
+  border-width: 1px;
 }
 
 .footer-section .copyright {
@@ -631,7 +640,7 @@ ol {
 }
 
 .EE-section h3{
-  color: darkred;
+  color: rgb(90,180,200);
   padding-bottom: 30px;
 }
 
@@ -670,7 +679,7 @@ ol {
 
 .awards-section h3{
   padding-bottom: 80px;
-  color: darkred;
+  color: rgb(90,180,200);
 }
 
 .awardText {
@@ -792,7 +801,7 @@ ol {
   padding-bottom: 2%;
 }
 .element a{
-  color:darkred;
+  color:rgb(90,180,200);
 }
 
 .element a:hover{
@@ -901,5 +910,6 @@ ol {
 
   .section-title-text{
     font-size: 8px;
+
   }
 }
