@@ -568,6 +568,14 @@ ol {
   transform: scale(1);
 }
 
+.about1 {
+  border-radius: 10%;
+}
+
+.about2{
+  border-radius: 50%;
+}
+
 /*------------------------
     Footer Section
 --------------------------*/
@@ -575,6 +583,7 @@ ol {
   padding: 110px 0;
   border-top: grey solid;
   border-width: 1px;
+  margin-top: 50px;
 }
 
 .footer-section .copyright {
@@ -597,46 +606,17 @@ ol {
   margin-right: 0;
 }
 
-/*------------------------
-    About Page
---------------------------*/
-.pic-frame {
-  position: relative;
-  padding-left: 25px;
-  padding-bottom: 25px;
-  display: inline-block;
-}
 
-.pic-frame:after {
-  position: absolute;
-  content: "";
-  width: calc(100% - 25px);
-  height: calc(100% - 25px);
-  bottom: 0;
-  left: 0;
-  border: 2px solid #000;
-  z-index: 1;
-}
-
-.milestone {
-  margin-top: 15px;
-}
-
-.milestone h2 {
-  font-size: 60px;
-}
-
-.milestone h2 span {
-  font-size: 18px;
-  color: #979797;
-}
 
 /*------------------------
     EE Section
 --------------------------*/
 
 .EE-section{
-  padding: 200px 200px;
+  padding-top: 20px;
+  padding-bottom: 100px;
+  padding-left: 200px;
+  padding-right: 200px;
 }
 
 .EE-section h3{
