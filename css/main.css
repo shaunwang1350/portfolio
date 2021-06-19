@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@900&display=swap");
+
+/* ----- General ----- */
+
+* {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background-color: black !important;
+  color: white; */
+}
+
+section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-content: cetner;
+  scroll-snap-align: start;
+  border-bottom: 1px solid black;
+}
+
+.scroll-effect-container {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+}
+
+body {
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: cubic-bezier(0.19, 1, 0.22, 1);
+  animation-fill-mode: before;
+}
+
+/* ----- Navbar-Section ----- */
+
+.navigationBar {
+  border-bottom: 1px solid black;
+}
+
+.navbar-toggler {
+  border: none !important;
+  color: black !important;
+}
+
+.icon-bar a {
+  text-align: center;
+  padding: 16px;
+  color: black;
+  font-size: 20px;
+}
+
+.icon-bar a:hover {
+  color: grey;
+}
+
+/* ----- Landing-Section ----- */
+
+.my-name {
+  font-weight: bold;
+  font-size: 5vw;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+/* ----- About-Section ----- */
+
+.about-section img {
+  margin: 10px 10px;
+}
+
+.about-section h5 {
+  text-align: center;
+}
+
+.imgRound {
+  border-radius: 2%;
+}
+
+/* .aboutMe-button {
+  border: 1px solid black !important;
+  border-radius: 2%;
+} */
+
+.aboutMe-button {
+  border-radius: 35%;
+  border: 1px solid black !important;
+  text-align: center;
+  transition: all 0.5s;
+  cursor: pointer;
+  padding: 16px;
+  width: 220px;
+  background-color: white;
+}
+
+.aboutMe-button {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.aboutMe-button:after {
+  content: "»";
+  position: absolute;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.aboutMe-button:hover {
+  padding-right: 24px;
+  padding-left: 8px;
+  background-color: orange;
+  color: white !important;
+  border: none !important;
+}
+
+.aboutMe-button:hover:after {
+  opacity: 1;
+  right: 10px;
+}
+
+/* ----- Roles-Section ----- */
+
+.card {
+  border: 1px solid black !important;
+  border-radius: 20% !important;
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card ul {
+  list-style-type: none;
+}
+
+.card h4 {
+  font-weight: bold;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.card h5 {
+  font-weight: bold;
+}
+
+/* ----- Feature-Section ----- */
+
+.image {
+  margin: 50px 0px;
+}
+
+.feature-section.project-name h2 {
+  font-weight: bold !important;
+}
+
+section.feature-section1 {
+  background: url(../assets/images/snapshotProject/snapshot.png) !important;
+  background-repeat: no-repeat !important;
+  background-size: 65% !important;
+  background-position: top left 140% !important;
+}
+
+/* section.feature-section3 {
+  background: url(../assets/images/snapshotProject/snapshot.png) !important;
+  background-repeat: no-repeat !important;
+  background-size: 65% !important;
+  background-position: top left 140% !important;
+} */
+
+div.feature-number {
+  margin-bottom: 30% !important;
+}
+
+/* section.feature-description{
+
+} */
+
+div.feature-category {
+  margin-top: 30% !important;
+}
+
+/* ----- Footer-Section ----- */
+
+.contact-button {
+  border: 1px solid black !important;
+  border-radius: 2%;
+}
+
+/* ----- Contact-Page ----- */
+
+.phone-Image {
+  border-radius: 3%;
+}
+
+/* ----- Animations ----- */
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
