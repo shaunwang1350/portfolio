@@ -63,6 +63,13 @@ body {
   font-family: "Red Hat Display", sans-serif;
 }
 
+section.landing-section {
+  background: url(../assets/images/landBackground.png) !important;
+  background-repeat: no-repeat !important;
+  background-size: 50% !important;
+  background-position: top 100% left 100% !important;
+}
+
 /* ----- About-Section ----- */
 
 .about-section img {
@@ -162,13 +169,6 @@ section.feature-section1 {
   background-size: 65% !important;
   background-position: top left 140% !important;
 }
-
-/* section.feature-section3 {
-  background: url(../assets/images/snapshotProject/snapshot.png) !important;
-  background-repeat: no-repeat !important;
-  background-size: 65% !important;
-  background-position: top left 140% !important;
-} */
 
 div.feature-number {
   margin-bottom: 30% !important;
